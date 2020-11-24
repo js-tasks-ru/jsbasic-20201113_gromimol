@@ -1,8 +1,3 @@
-/**
- * Factorial
- * @param {number} n
- * @returns {number}
- */
 function factorial(n) {
   let result = n
   if (result === 0) {
@@ -11,6 +6,6 @@ function factorial(n) {
   for (let i = n - 1; i > 1; i--){
     result *= i
   }
-  
+
   return result
 }
