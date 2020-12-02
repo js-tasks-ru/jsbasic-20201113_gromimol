@@ -12,5 +12,5 @@ function getMinMax(str) {
   let max = Math.max(...numbersOnly);
   let min = Math.min(...numbersOnly);
 
-  return {min, max};
+  return {min, max}
 }
